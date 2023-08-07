@@ -1,0 +1,22 @@
+{
+  "name": "cardinalgiftshop",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelseacardinal/cardinalgiftshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chelseacardinal/cardinalgiftshop/issues"
+  },
+  "homepage": "https://github.com/chelseacardinal/cardinalgiftshop#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

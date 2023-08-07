@@ -1,0 +1,8 @@
+#ouput dir
+dist/
+
+# Parcel cache
+.cache/
+
+# Dependency directories
+node_modules/

@@ -1,0 +1,35 @@
+@import "normalize.css";
+@import "fonts.css";
+
+body {
+  padding: 33px 3px 0;
+  min-height: 100vh;
+}
+
+h1 {
+  width: 100%;
+  height: auto;
+}
+
+h1 > svg {
+  width: 100%;
+  height: auto;
+}
+
+@media (orientation: landscape) {
+  h1 > svg.desktop {
+    display: block;
+  }
+  h1 > svg.mobile {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) {
+  h1 > svg.desktop {
+    display: none;
+  }
+  h1 > svg.mobile {
+    display: block;
+  }
+}
