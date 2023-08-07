@@ -3,6 +3,7 @@ dist/
 
 # Parcel cache
 .cache/
+.parcel-cache/
 
 # Dependency directories
 node_modules/
