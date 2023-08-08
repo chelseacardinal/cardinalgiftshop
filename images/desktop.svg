@@ -140,11 +140,5 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_19_9" transform="matrix(0.000330688 0 0 0.000277366 0 -0.0144928)"/>
 </pattern>
- <image
-            id="image0_19_9"
-            width="3024"
-            height="4032"
-            href="./swan.jpg"
-          />
 </defs>
 </svg>
