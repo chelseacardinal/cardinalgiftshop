@@ -15,6 +15,54 @@ h1 > svg {
   height: auto;
 }
 
+.bouncer-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99;
+  pointer-events: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bouncer {
+  display: block;
+  width: 174px;
+  height: 174px;
+  user-select: none;
+  text-align: center;
+}
+
+/* .bouncer.x {
+  border: dashed 2px #aaa2;
+} */
+
+.bouncer.y > img {
+  width: 100%;
+  height: auto;
+}
+
+.x {
+  animation: moveX 5s linear infinite alternate;
+}
+
+.y {
+  animation: moveY 3.2s linear infinite alternate;
+}
+
+@keyframes moveX {
+  100% {
+    transform: translate(calc(100vw - 174px));
+  }
+}
+@keyframes moveY {
+  100% {
+    transform: translateY(calc(100vh - 174px));
+  }
+}
+
 @media (orientation: landscape) {
   body {
     padding: 33px 3px 0;
@@ -24,6 +72,9 @@ h1 > svg {
   }
   h1 > svg.mobile {
     display: none;
+  }
+  .bouncer-container {
+    display: block;
   }
 }
 
@@ -36,5 +87,8 @@ h1 > svg {
   }
   h1 > svg.mobile {
     display: block;
+  }
+  .bouncer-container {
+    display: none;
   }
 }
