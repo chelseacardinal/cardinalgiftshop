@@ -10,6 +10,8 @@ h1 {
   position: relative;
   width: 100%;
   height: auto;
+  padding: 0;
+  margin: 0;
 }
 
 h1 > svg,
@@ -69,10 +71,12 @@ h1 > img {
   body {
     padding: 33px 3px 0;
   }
-  h1 > svg.desktop {
+  h1 > svg.desktop,
+  h1 > img.desktop {
     display: block;
   }
-  h1 > svg.mobile {
+  h1 > svg.mobile,
+  h1 > img.mobile {
     display: none;
   }
   .bouncer-container {
