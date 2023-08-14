@@ -86,7 +86,7 @@ h1 > img {
 
 @media (orientation: portrait) {
   body {
-    padding: 0 0 32px;
+    padding: 0 0 16px;
     margin: 0;
   }
   h1 > svg.desktop,
